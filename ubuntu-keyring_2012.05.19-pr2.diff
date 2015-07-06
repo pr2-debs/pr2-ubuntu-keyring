@@ -1,0 +1,13 @@
+diff -ur ubuntu-keyring-2012.05.19-pr2/debian/changelog ubuntu-keyring-2012.05.19/debian/changelog
+--- ubuntu-keyring-2012.05.19-pr2/debian/changelog	2012-09-25 03:52:07.000000000 -0700
++++ ubuntu-keyring-2012.05.19-pr2/debian/changelog	2012-12-04 15:18:34.883693816 -0800
+@@ -1,3 +1,9 @@
++ubuntu-keyring (2012.05.19-pr2) precise; urgency=low
++
++  * Added Clearpath Robotics PR2 Keys
++
++ -- Devon Ash <dash@clearpathrobotics.com>  Tue, 04 Dec 2012 15:18:20 -0800
++
+ ubuntu-keyring (2012.05.19) precise-proposed; urgency=low
+ 
+   * Add 4096R/C0B21F32 Ubuntu Archive Automatic Signing Key (2012)

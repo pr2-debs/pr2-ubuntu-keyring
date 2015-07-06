@@ -1,7 +1,7 @@
 # Currently, this makefiles erases the .bz2 files when there is a crash, making the 
 # build longer than necessary when you restart.
 
-PKGVERSION=2011.11.21.1
+PKGVERSION=2012.05.19
 
 all: ubuntu-keyring-${PKGVERSION}-pr2_all.deb
 
@@ -21,10 +21,10 @@ ros.key:
 	wget http://packages.ros.org/ros.key
 
 pr2.key:
-	wget http://packages.ros.org/pr2.key
+	wget http://pr2packages.clearpathrobotics.com/pr2.key
 	
-pr2-packages.key: ../../basestation-precise/pr2-installer/root/usr/lib/robot-install/pr2-packages.key
-	cp ../../basestation-precise/pr2-installer/root/usr/lib/robot-install/pr2-packages.key .
+pr2-packages.key: pr2-installer/root/usr/lib/robot-install/pr2-packages.key
+	cp pr2-installer/root/usr/lib/robot-install/pr2-packages.key .
 
 #basestationpackages.key: ../../basestation-precise/pr2-installer/root/usr/lib/robot-install/basestationpackages.gpg
 #	gpg --no-default-keyring --secret-keyring ./$< --export -a 324C3C1E | tee $@

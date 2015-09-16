@@ -1,7 +1,7 @@
 --- ubuntu-keyring_2012.05.19-pr2.diff/debian/changelog	2015-07-06 11:08:14.006365458 -0400
 +++ ubuntu-keyring_2012.05.19-pr2.diff/debian/changelog	2015-07-06 11:49:44.774310951 -0400
 @@ -1,3 +1,9 @@
-+ubuntu-keyring (2015.07.07-pr2) precise; urgency=low
++ubuntu-keyring (2015.07.07-pr2-precise) precise; urgency=low
 +
 +  * Added Clearpath Robotics PR2 Keys
 +

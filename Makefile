@@ -21,7 +21,7 @@ ros.key:
 	wget http://packages.ros.org/ros.key
 
 pr2.key:
-	wget http://pr2packages.clearpathrobotics.com/pr2.key
+	wget http://dev-vm-packages-01/pr2packages/pr2-packages.key
 	
 pr2-packages.key: pr2-installer/root/usr/lib/robot-install/pr2-packages.key
 	cp pr2-installer/root/usr/lib/robot-install/pr2-packages.key .
